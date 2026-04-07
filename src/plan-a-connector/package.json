@@ -1,0 +1,28 @@
+{
+  "name": "@biochat/plan-a-connector",
+  "version": "0.1.0",
+  "description": "Plan A: LobeChat plugin that bridges to Nexu/OpenClaw execution runtime",
+  "license": "MIT",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@lobechat/types": "workspace:*",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@lobechat/types": ">=1.0.0"
+  },
+  "keywords": [
+    "biochat",
+    "lobechat",
+    "nexu",
+    "openclaw",
+    "agent",
+    "plugin"
+  ]
+}
